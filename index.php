@@ -62,6 +62,16 @@
 ?>	
 
 	</section>
+    <div class="clearfix"></div>
+    <footer class="footer-top">
+    
+    
+    
+    </footer>
+    <footer class="footer-end text-center">
+    	<p>كليه حقوق اين وب سايت متعلق به شرکت بلور شمس آباد مي باشد.</p>
+        <p style="margin-bottom:0">طراح : <a href="http://rayweb.ir">رای وب</a></p>
+    </footer>
 <script src="js/jquery.js"></script>
 <script src="js/jssor.js"></script>
 <script src="js/jssor.slider.min.js"></script>

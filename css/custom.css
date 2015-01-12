@@ -12,7 +12,7 @@ body{
 	}
 .navbar-default{
 	background-color:#FFF;
-	border-color:#44a8c0;
+	border-color:#fff;
 	}
 .navbar-nav{
 	padding:20px;
@@ -36,4 +36,29 @@ body{
 .btn-default:hover{
 	background-color:#fff;
 	color:#44a8c0;
+	}
+.navbar-default{
+	background-color:#16697D;
+
+	}
+.navbar-default .navbar-nav > li > a {
+	color:#fff;
+	}
+.footer-top{
+	height:300px;
+	background-color:#16697D;
+	
+	}
+.footer-end{
+	
+	background-color:#4A8390;
+	border-top:1px dotted #fff;
+	
+	}
+.footer-end a{
+	text-decoration:none;
+	color:inherit;
+	}
+.panel-heading{
+	background-color:#73CBE0 !important;
 	}
