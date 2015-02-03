@@ -1,5 +1,5 @@
  <!-- JSSOR SLIDER -->
-    <div style="position: relative; top: 0px; left: 0px; width:100%; text-align: center; background-image: url(images/22.JPG); border-top: 1px solid gray; border-bottom: 1px solid gray; overflow: hidden; background-size:cover;">
+    <div style="position: relative; top: 0px; left: 0px; width:100%; text-align: center; background-image: url(images/22.JPG); border-top: 1px solid gray; border-bottom: 1px solid gray; overflow: hidden; background-size:cover;" dir="ltr">
         <!-- Jssor Slider Begin -->
         <!-- You can move inline styles to css file or css block. --> 
         <div id="sliderc_container" style="position: relative; margin: 0 auto; width: 960px;
@@ -27,9 +27,9 @@
                         <!-- Slides Container -->
                         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
                             <div>
-                                <a u="image" href="#"><img src="images/slider-1-slide-4.jpg" alt="image slider" /></a>
+                                <a u="image" href="#"><img src="images/banner1.jpg" alt="image slider" /></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
-                                شرکت راه سازان زرافشان
+                                شمس آباد بلور
                                 </div>
                             </div> 
                         </div>
@@ -44,8 +44,8 @@
                         <a style="display: none" href="#">jquery photo gallery</a>
                     </div>
                     <!-- Jssor Slider End -->
-                    <div u="caption" t="RTT*JUP|BR" t2="SPACESHIP|RB" style="position: absolute; right: 0px;top:30px;width:600px;height:30px;font-size:28px;color:#fff;line-height:30px; text-align: right;">
-                    مورد تایید شهرداری مرکز
+                    <div u="caption" t="RTT*JUP|BR" t2="SPACESHIP|RB" style="position: absolute; right: 0px;top:30px;width:600px;height:30px;font-size:28px;color:#fff;line-height:30px; text-align: right;text-shadow:0 0 5px #333">
+                    پذیرش انواع سفارشات
                     </div>
                 </div>
                 <div>
@@ -68,9 +68,9 @@
                         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
                             overflow: hidden;">
                             <div>
-                                <a u=image href="#"><img src="images/slider-1-slide-1.jpg" alt="banner rotator" /></a>
+                                <a u=image href="#"><img src="images/banner2.jpg" alt="banner rotator" /></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
-                                شرکت راه سازان زرافشان
+                                شمس آباد بلور
                                 </div>
                             </div>
                         </div>
@@ -112,9 +112,9 @@
                         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
                             overflow: hidden;">
                             <div>
-                                <a u=image href="#"><img src="images/slider-1-slide-3.jpg" alt="banner slider" /></a>
+                                <a u=image href="#"><img src="images/banner3.jpg" alt="banner slider" /></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
-                                شرکت راه سازان زرافشان
+                                شمس آباد بلور
                                 </div>
                             </div>
                         </div>
@@ -160,9 +160,9 @@
                         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
                             overflow: hidden;">
                             <div>
-                                <a u=image href="#"><img src="images/slider-1-slide-2.jpg" alt="banner rotator" width="600" height="300"/></a>
+                                <a u=image href="#"><img src="images/banner3.jpg" alt="banner rotator" width="600" height="300"/></a>
                                 <div u=caption t="*" class="captionOrange"  style="position:absolute; left:20px; top: 30px; width:300px; height:30px;"> 
-                                شرکت راه سازان زرافشان
+                                شمس آباد بلور
                                 </div>
                             </div>
                         </div>

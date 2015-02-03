@@ -9,6 +9,7 @@ body{
 	font-family:'koodak' !important;
 	font-size:18px;
 	direction:rtl;
+	background-image:url(../images/bg.png);
 	}
 .navbar-default{
 	background-color:#FFF;
@@ -45,12 +46,29 @@ body{
 	color:#fff;
 	}
 .footer-top{
-	height:300px;
+	height:250px;
 	background-color:#16697D;
+	color:#FFF;
+	font-size:16px;
+		
+	}
+.footer-top ul li{
+	list-style-type:none;
+	}
+.footer-top ul li a{
+	text-decoration:none;
+	
+	color:#FFF !important;
+	
+	}
+.footer-top ul li a:hover{
+	text-decoration:none;
+	
+	color:#ccc !important;
 	
 	}
 .footer-end{
-	
+	color:#FFF;
 	background-color:#4A8390;
 	border-top:1px dotted #fff;
 	
@@ -61,4 +79,13 @@ body{
 	}
 .panel-heading{
 	background-color:#73CBE0 !important;
+ 	}
+.captionOrange{
+	background:none repeat scroll 0 0 rgba(68, 168, 192, 0.6)!important ;
+	}
+.dropdown-menu{
+	text-align:center;
+	}
+.navbar-right .dropdown-menu {
+	right:-25px !important;
 	}

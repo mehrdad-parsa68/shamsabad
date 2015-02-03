@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/slider.css">
+
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#">Brand</a>
+                  <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive"></a>
                 </div>
             
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,13 +32,16 @@
                   <ul class="nav navbar-nav navbar-right">
                     <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'home'){echo 'active';} ?>"><a href="?page=home">صفحه اصلی</a></li>
                     <li class="dropdown pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">محصولات <span class="caret"></span></a>
-                      <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
+                      <a href="?page=products" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">محصولات <span class="caret"></span></a>
+                      <ul class="dropdown-menu text-center" role="menu" dir="rtl">
+                        <li><a href="?page=products">آرایشی بهداشتی</a></li>
+                        <li><a href="#">استکان</a></li>
+                        <li><a href="#">بلورجات تزیینی</a></li>
+                        <li><a href="#">خودروسازی</a></li>
+                        <li><a href="#">قندان</a></li>
+                        <li><a href="#">لیوان و فنجان</a></li>
+                        <li><a href="#">نمکدان</a></li>
+                        <li><a href="#">سایر بلورجات</a></li>
                       </ul>
                     </li>
                     <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>"><a href="#">درباره ما</a></li>
@@ -64,15 +68,43 @@
 	</section>
     <div class="clearfix"></div>
     <footer class="footer-top">
-    
+    	<div class="container">
+        	<div class="col-sm-4 pull-right">
+            	<h2 class="text-center">درباره ما</h2>
+                <hr>
+            </div>
+            <div class="col-sm-4 pull-right">
+            	<h2 class="text-center">لینک های مرتبط</h2>
+                <hr>
+                <ul class="text-center">
+                 <li><a href="#">صفحه اصلی</a></li>
+                 <li><a href="#">محصولات</a></li>
+                 <li><a href="#">درباره ما</a></li>
+                 <li><a href="#">ارتباط با ما</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 pull-right">
+            	<h2 class="text-center">ارتباط با ما</h2>
+                <hr>
+                <h4 class="text-center"></h4>
+                <p align="justify"> آدرس :کیلومتر 40 آزادراه تهران - قم، مجاور شهر حسن آباد، شهرک صنعتی شمس آباد، بلوار گلستان، گلشن 14، پلاک 6</p>
+                <p align="justify">تلفن سفارشات : 56232025 - 021</p>
+                <p align="justify">فکس : 56233378 - 021</p>
+                
+            </div>
+        
+        </div>
     
     
     </footer>
     <footer class="footer-end text-center">
-    	<p>كليه حقوق اين وب سايت متعلق به شرکت بلور شمس آباد مي باشد.</p>
+    	<p>كليه حقوق اين وب سايت متعلق به شمس آباد بلور مي باشد.</p>
         <p style="margin-bottom:0">طراح : <a href="http://rayweb.ir">رای وب</a></p>
     </footer>
 <script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.init.js"></script>
+<script type="text/javascript" src="js/jquery.wp.custom.js"></script>
 <script src="js/jssor.js"></script>
 <script src="js/jssor.slider.min.js"></script>
 <script src="js/slider.js"></script>
