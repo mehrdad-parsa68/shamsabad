@@ -29,7 +29,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive"></a>
+                  <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive logo-pic"></a>
                 </div>
             
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +51,7 @@
                         <li><a href="#">سایر بلورجات</a></li>
                       </ul>
                     </li>
-                    <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>"><a href="?page=about">درباره ما</a></li>
+                    <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'about'){echo 'active';} ?>"><a href="?page=about">درباره ما</a></li>
                     <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?>"><a href="?page=contact">تماس با ما</a></li>
                     
                   </ul>
@@ -110,12 +110,12 @@
         <p style="margin-bottom:0">طراح : <a href="http://rayweb.ir">رای وب</a></p>
     </footer>
 <script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.mixitup.js"></script>
-<script type="text/javascript" src="js/jquery.mixitup.init.js"></script>
-<script type="text/javascript" src="js/jquery.wp.custom.js"></script>
 <script src="js/jssor.js"></script>
 <script src="js/jssor.slider.min.js"></script>
 <script src="js/slider.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.init.js"></script>
+<script type="text/javascript" src="js/jquery.wp.custom.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

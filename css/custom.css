@@ -108,3 +108,8 @@ body{
 	margin:auto;
 	margin-bottom:25px;
 	}
+ @media screen and (max-width: 768px){
+.logo-pic{
+	width:100px;
+	}
+ }
