@@ -2,11 +2,18 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>شمس آباد بلور</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/slider.css">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -44,9 +51,9 @@
                         <li><a href="#">سایر بلورجات</a></li>
                       </ul>
                     </li>
-                    <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>"><a href="#">درباره ما</a></li>
+                    <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>"><a href="?page=about">درباره ما</a></li>
                     <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?>"><a href="?page=contact">تماس با ما</a></li>
-                    <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>"><a href="#">صفحه اصلی</a></li>
+                    
                   </ul>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
@@ -72,6 +79,7 @@
         	<div class="col-sm-4 pull-right">
             	<h2 class="text-center">درباره ما</h2>
                 <hr>
+                <p align="justify">پایه گذاران شرکت شمس آباد بلور، با بیش از 35 سال تجربه در زمینه بلورسازی همواره در رقابت با رقبای داخلی و کشورهای هم جوار بوده اند.کیفیت محصولات این شرکت با وجود تمام مسائل و مشکلات اقتصادی ایجاد شده تاکنون رو به بهبودی بوده و این امر ادامه دار خواهد بود.</p>
             </div>
             <div class="col-sm-4 pull-right">
             	<h2 class="text-center">لینک های مرتبط</h2>

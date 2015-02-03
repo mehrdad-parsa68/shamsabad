@@ -20,6 +20,9 @@ body{
 	}
 .navbar{
 	margin-bottom:0 !important;
+	border:none;
+	border-radius:0;
+	border-bottom:1px solid #FFF;
 	}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
 	background-color:#44a8c0 !important;
@@ -33,6 +36,8 @@ body{
 .btn-default{
 	background-color:#44a8c0;
 	color:#FFF;
+	border-right:none 0 !important;
+	border-left:none 0 !important;
 	}
 .btn-default:hover{
 	background-color:#fff;
@@ -46,7 +51,7 @@ body{
 	color:#fff;
 	}
 .footer-top{
-	height:250px;
+	
 	background-color:#16697D;
 	color:#FFF;
 	font-size:16px;
@@ -88,4 +93,18 @@ body{
 	}
 .navbar-right .dropdown-menu {
 	right:-25px !important;
+	}
+.top-header{
+	padding-top:10px !important;
+	margin-bottom:100px;
+	background: url('../images/1-12.jpg') !important;
+	min-height:100px !important;
+	}
+.about{
+	margin-bottom:100px;
+	margin-top:100px;
+	}
+.logo {
+	margin:auto;
+	margin-bottom:25px;
 	}

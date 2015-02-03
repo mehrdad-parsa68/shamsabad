@@ -1,10 +1,18 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+<div class="container about">
+	<div class="col-sm-10 col-sm-offset-1 about-panel">
+			<div class="text-center info panel panel-default">
+            	<div class="panel-heading">شمس آباد بلور</div>
 
-<body>
-</body>
-</html>
+				<div class="panel-body" dir="rtl">
+                	<div class="text-center">
+                    	<img src="images/logo_black.png" width="250" class="img-responsive logo">
+                    </div>
+                	<p align="justify">پایه گذاران شرکت شمس آباد بلور، با بیش از 35 سال تجربه در زمینه بلورسازی همواره در رقابت با رقبای داخلی و کشورهای هم جوار بوده اند.</p>
+                    <p align="justify">شروع فعالیت ایشان به تاسیس و راه اندازی یکی از بزرگترین و منظم ترین شرکت های بلورسازی ایران باز می گردد. ابتدا در راه اندازی شرکت شیشه و گاز (شوگا) فعالیت داشته و پس از کسب تجربه اقدام به تاسیس اولین کارخانه ی خصوصی کرده اند.</p>
+                    <p align="justify">اولین همکاری خصوصی آنها در شرکت Proses بوده و پس از آن با تکمیل کردن تجربیات خود، شرکت بلورین را به ثبت رسانیدند.</p>
+                    <p align="justify">پس از گذر زمان و افتتاح شرکت صنعتی شمس آباد یعنی بزرگترین شرکت صنعتی ایران و خاورمیانه در سال 1372 دست به اقدامی بزرگ زدند و قدم در راهی دشوار گذاشتند آنها تاکنون ادامه داشته و خواهد داشت.</p>
+                    <p align="justify">کیفیت محصولات این شرکت با وجود تمام مسائل و مشکلات اقتصادی ایجاد شده تاکنون رو به بهبودی بوده و این امر ادامه دار خواهد بود.</p>
+        
+       		</div>
+        </div>
+</div>
