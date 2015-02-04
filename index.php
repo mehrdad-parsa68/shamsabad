@@ -1,3 +1,4 @@
+<?php require_once('core/core.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,60 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style>
 
+div{
+ display:block;
+
+ -webkit-transition:all .8s linear;
+ -moz-transition:all .8s linear;
+ -o-transition:all .8s linear;
+ -ms-transition:all .8s linear;
+ transition:all .8s linear;
+
+}
+
+div[data-filter="category_1"]{
+  background:red;
+
+}
+
+div[data-filter="category_2"]{
+  background:green;
+}
+
+div[data-filter="category_3"]{
+  background:blue;
+}
+
+
+
+a:focus[data-filter]{
+    opacity:.8;
+     outline:none;
+}
+
+a[data-filter="category_1"]:focus ~ div:not([data-filter="category_1"]){
+  height:0px;
+  width:0px;
+  border:none;
+  margin:0;
+}
+
+a[data-filter="category_2"]:focus ~ div:not([data-filter="category_2"]){
+  height:0px;
+  width:0px;
+  border:none;
+  margin:0;
+}
+
+a[data-filter="category_3"]:focus ~ div:not([data-filter="category_3"]){
+  height:0px;
+  width:0px;
+  border:none;
+  margin:0;
+}
+</style>
 </head>
 
 <body>
@@ -109,13 +163,13 @@
     	<p>كليه حقوق اين وب سايت متعلق به شمس آباد بلور مي باشد.</p>
         <p style="margin-bottom:0">طراح : <a href="http://rayweb.ir">رای وب</a></p>
     </footer>
+
+
 <script src="js/jquery.js"></script>
 <script src="js/jssor.js"></script>
 <script src="js/jssor.slider.min.js"></script>
 <script src="js/slider.js"></script>
-<script type="text/javascript" src="js/jquery.mixitup.js"></script>
-<script type="text/javascript" src="js/jquery.mixitup.init.js"></script>
-<script type="text/javascript" src="js/jquery.wp.custom.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
