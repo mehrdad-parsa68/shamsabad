@@ -15,60 +15,7 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<style>
 
-div{
- display:block;
-
- -webkit-transition:all .8s linear;
- -moz-transition:all .8s linear;
- -o-transition:all .8s linear;
- -ms-transition:all .8s linear;
- transition:all .8s linear;
-
-}
-
-div[data-filter="category_1"]{
-  background:red;
-
-}
-
-div[data-filter="category_2"]{
-  background:green;
-}
-
-div[data-filter="category_3"]{
-  background:blue;
-}
-
-
-
-a:focus[data-filter]{
-    opacity:.8;
-     outline:none;
-}
-
-a[data-filter="category_1"]:focus ~ div:not([data-filter="category_1"]){
-  height:0px;
-  width:0px;
-  border:none;
-  margin:0;
-}
-
-a[data-filter="category_2"]:focus ~ div:not([data-filter="category_2"]){
-  height:0px;
-  width:0px;
-  border:none;
-  margin:0;
-}
-
-a[data-filter="category_3"]:focus ~ div:not([data-filter="category_3"]){
-  height:0px;
-  width:0px;
-  border:none;
-  margin:0;
-}
-</style>
 </head>
 
 <body>
@@ -130,12 +77,12 @@ a[data-filter="category_3"]:focus ~ div:not([data-filter="category_3"]){
     <div class="clearfix"></div>
     <footer class="footer-top">
     	<div class="container">
-        	<div class="col-sm-4 pull-right">
+        	<div class="col-sm-4">
             	<h2 class="text-center">درباره ما</h2>
                 <hr>
                 <p align="justify">پایه گذاران شرکت شمس آباد بلور، با بیش از 35 سال تجربه در زمینه بلورسازی همواره در رقابت با رقبای داخلی و کشورهای هم جوار بوده اند.کیفیت محصولات این شرکت با وجود تمام مسائل و مشکلات اقتصادی ایجاد شده تاکنون رو به بهبودی بوده و این امر ادامه دار خواهد بود.</p>
             </div>
-            <div class="col-sm-4 pull-right">
+            <div class="col-sm-4">
             	<h2 class="text-center">لینک های مرتبط</h2>
                 <hr>
                 <ul class="text-center">
@@ -145,7 +92,7 @@ a[data-filter="category_3"]:focus ~ div:not([data-filter="category_3"]){
                  <li><a href="#">ارتباط با ما</a></li>
                 </ul>
             </div>
-            <div class="col-sm-4 pull-right">
+            <div class="col-sm-4">
             	<h2 class="text-center">ارتباط با ما</h2>
                 <hr>
                 <h4 class="text-center"></h4>
@@ -166,10 +113,33 @@ a[data-filter="category_3"]:focus ~ div:not([data-filter="category_3"]){
 
 
 <script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+			
+		$(document).ready(function() {
+				$( "a.a-filter" ).click(function() {
+					// get the value from text field
+					var input = $(this).attr('value');
+					// check wheather the matching element exists
+						// by default every list element will be shown
+						
+						if(input == 'all'){
+							$(".content").show(1000);
+							}else{
+						$("[data-label*="+ input +"]").show(1000);
+						
+						// Non related element will be hidden after input
+						$(".content").not("[data-label*="+ input +"]").hide(1000);
+						
+							}
+				});
+			});
+		</script>
 <script src="js/jssor.js"></script>
 <script src="js/jssor.slider.min.js"></script>
 <script src="js/slider.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+
 
 </body>
 </html>

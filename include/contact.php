@@ -5,6 +5,7 @@
 </div>	
 
 <div class="clearfix"></div>-->
+<div class="container">
 <div class="col-sm-10 col-sm-offset-1 about" >
 			<div class="text-center info panel panel-default">
             	<div class="panel-heading">با ما در ارتباط باشید</div>
@@ -68,6 +69,5 @@
        		</div>
         </div>
         </div>	
-
-
+		</div>
 
