@@ -1,5 +1,5 @@
 <?php 
- $query = "SELECT * FROM `products`";
+ $query = "SELECT * FROM `products` ORDER BY RAND()";
  $result = mysqli_query($connection,$query);
 ?>
 
@@ -9,7 +9,7 @@
             
             <div class="row products-show">
                         
-                           <ul>
+                           <ul class="col-sm-3 pull-right" style="height:100%">
                            <li><a class="a-filter" href='#' value="all">همه</a></li>
                             <?php 
 								$cat_query = "SELECT * FROM `category`";
@@ -25,7 +25,7 @@
 					   
 					
 					   echo"
-						<div data-label='category_".$cat."' class='col-lg-3 col-md-3 col-sm-4 content'>
+						<div data-label='category_".$cat."' class='col-lg-3 col-md-3 col-sm-4 content pull-right'>
 							<div class='w-box inverse'>
 								<div class='figure'>
 									

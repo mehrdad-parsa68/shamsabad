@@ -10,6 +10,11 @@
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/slider.css">
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<link rel="stylesheet" type="text/css" href="css/fxtransparent.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<script src="js/modernizr.custom.js"></script>
+
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -39,18 +44,9 @@
                   
                   <ul class="nav navbar-nav navbar-right">
                     <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'home'){echo 'active';} ?>"><a href="?page=home">صفحه اصلی</a></li>
-                    <li class="dropdown pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'jadval'){echo 'active';} ?>">
-                      <a href="?page=products" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">محصولات <span class="caret"></span></a>
-                      <ul class="dropdown-menu text-center" role="menu" dir="rtl">
-                        <li><a href="?page=products">آرایشی بهداشتی</a></li>
-                        <li><a href="#">استکان</a></li>
-                        <li><a href="#">بلورجات تزیینی</a></li>
-                        <li><a href="#">خودروسازی</a></li>
-                        <li><a href="#">قندان</a></li>
-                        <li><a href="#">لیوان و فنجان</a></li>
-                        <li><a href="#">نمکدان</a></li>
-                        <li><a href="#">سایر بلورجات</a></li>
-                      </ul>
+                    <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'products'){echo 'active';} ?>">
+                      <a href="?page=products" >محصولات </a>
+                      
                     </li>
                     <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'about'){echo 'active';} ?>"><a href="?page=about">درباره ما</a></li>
                     <li class="pull-right <?php if(isset($_GET['page']) && $_GET['page'] == 'contact'){echo 'active';} ?>"><a href="?page=contact">تماس با ما</a></li>
@@ -120,6 +116,8 @@
 				$( "a.a-filter" ).click(function() {
 					// get the value from text field
 					var input = $(this).attr('value');
+					$( "a.a-filter" ).removeClass('active-a');
+					$(this).addClass('active-a');
 					// check wheather the matching element exists
 						// by default every list element will be shown
 						
@@ -138,7 +136,8 @@
 <script src="js/jssor.js"></script>
 <script src="js/jssor.slider.min.js"></script>
 <script src="js/slider.js"></script>
-
+<script src="js/classie.js"></script>
+<script src="js/main.js"></script>
 
 
 </body>
