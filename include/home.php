@@ -227,7 +227,7 @@
   پيشينه شيشه سازي صنعتي
 </a></p>
 					<p align="center"><a type="button" class="modal-a" data-toggle="modal" data-target="#myModal6">
-  پشيشه سازي صنعتي در ايران
+  شیشه سازي صنعتي در ايران
 </a></p>
     
                  
