@@ -1,5 +1,5 @@
  <!-- JSSOR SLIDER -->
-    <div style="position: relative; top: 0px; left: 0px; width:100%; text-align: center; background-image: url(images/22.JPG); border-top: 1px solid gray; border-bottom: 1px solid gray; overflow: hidden; background-size:cover;" dir="ltr">
+    <div style="position: relative; top: 0px; left: 0px; width:100%; text-align: center; background-image: url(images/banner-bg.jpg); border-top: 1px solid gray; border-bottom: 1px solid gray; overflow: hidden; background-size:cover;" dir="ltr">
         <!-- Jssor Slider Begin -->
         <!-- You can move inline styles to css file or css block. --> 
         <div id="sliderc_container" style="position: relative; margin: 0 auto; width: 960px;
