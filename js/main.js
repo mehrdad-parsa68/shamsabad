@@ -1,3 +1,4 @@
+
 (function() {
 	var support = { animations : Modernizr.cssanimations },
 		animEndEventNames = {
@@ -17,13 +18,20 @@
 		navNext = nav.querySelector( '.next' ),
 		navPrev = nav.querySelector( '.prev' ),
 		isAnimating = false;
-
+		
+	//navNext.click()
+	
+	
 	function init() {
 		hideNav();
 		changeEffect();
 		navNext.addEventListener( 'click', function( ev ) { ev.preventDefault(); navigate( 'next' ); } );
+		setInterval(function(){navigate( 'next' )},3000);
 		navPrev.addEventListener( 'click', function( ev ) { ev.preventDefault(); navigate( 'prev' ); } );
 		effectSel.addEventListener( 'change', changeEffect );
+		
+		
+	
 	}
 
 	function hideNav() {
@@ -51,6 +59,7 @@
 
 		var currentItem = items[ current ];
 
+		
 		if( dir === 'next' ) {
 			current = current < itemsCount - 1 ? current + 1 : 0;
 		}
@@ -94,4 +103,10 @@
 	}
 
 	init();
+	
+	
+	
+	
+	
 })();
+

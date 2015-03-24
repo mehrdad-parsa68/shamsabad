@@ -101,7 +101,7 @@ body{
 .navbar-right .dropdown-menu {
 	right:-25px !important;
 	}
-.top-header{
+..top-header{
 	padding-top:10px !important;
 	margin-bottom:100px;
 	background: url('../images/1-12.jpg') !important;
@@ -197,4 +197,24 @@ body{
 .component{
 	
 	margin-bottom:15px !important
+	}
+.navbar-fixed-top{
+	background-color:#16697D !important;
+	border-color:#16697D !important;
+	color:#fff !important;
+	
+	}
+.navbar-right li a,.navbar-brand{
+	color:#fff;
+	}
+
+.sidebar{
+	border-left:2px solid #16697d;
+	}
+.main-admin {
+	padding:40px;
+	}
+
+.sidebar{
+	padding-top:50px;
 	}

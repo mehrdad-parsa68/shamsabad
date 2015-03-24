@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <title>شمس آباد بلور</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -82,10 +83,10 @@
             	<h2 class="text-center">لینک های مرتبط</h2>
                 <hr>
                 <ul class="text-center">
-                 <li><a href="#">صفحه اصلی</a></li>
-                 <li><a href="#">محصولات</a></li>
-                 <li><a href="#">درباره ما</a></li>
-                 <li><a href="#">ارتباط با ما</a></li>
+                 <li><a href="?page=home">صفحه اصلی</a></li>
+                 <li><a href="?page=products">محصولات</a></li>
+                 <li><a href="?page=about">درباره ما</a></li>
+                 <li><a href="?page-contact">ارتباط با ما</a></li>
                 </ul>
             </div>
             <div class="col-sm-4">
@@ -109,6 +110,17 @@
 
 
 <script src="js/jquery.js"></script>
+<script>
+
+$(document).ready(function() {
+
+
+
+	
+});
+
+	
+</script>
 <script src="js/bootstrap.min.js"></script>
 <script>
 			
@@ -138,6 +150,7 @@
 <script src="js/slider.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/main.js"></script>
+
 
 
 </body>
