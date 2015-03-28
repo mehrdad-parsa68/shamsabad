@@ -7,6 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <title>شمس آباد بلور</title>
+<meta name="description" content="بلور - بلور شمس آباد - شرکت بلور شمس آباد - پایه گذاران شرکت شمس آباد بلور، با بیش از 35 سال تجربه در زمینه بلورسازی همواره در رقابت با رقبای داخلی و کشورهای هم جوار بوده اند.">
+<meta name="author" content="rayweb.ir | شرکت طراحی وب سایت رای وب">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
